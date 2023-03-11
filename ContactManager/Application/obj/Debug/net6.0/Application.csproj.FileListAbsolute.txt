@@ -1,0 +1,17 @@
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\bin\Debug\net6.0\Application.deps.json
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\bin\Debug\net6.0\Application.dll
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\bin\Debug\net6.0\Application.pdb
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\bin\Debug\net6.0\Domain.dll
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\bin\Debug\net6.0\Infrastructure.dll
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\bin\Debug\net6.0\Domain.pdb
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\bin\Debug\net6.0\Infrastructure.pdb
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\Application.dll
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\refint\Application.dll
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\Application.pdb
+D:\works\MySelf\Job\ContactManager\ContactManager\Application\obj\Debug\net6.0\ref\Application.dll

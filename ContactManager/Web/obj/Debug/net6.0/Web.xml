@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Web</name>
+    </assembly>
+    <members>
+        <member name="M:Web.Controllers.v1.ContactController.GetContact(System.Int32)">
+             <summary>
+             Reading one contact entry by a given id 
+             </summary>
+             <param name="id"></param>
+             <returns>list of </returns>
+             <remarks>
+             Sample query:
+            
+             /api/v1/contact/1
+            
+             </remarks>
+             <response code="200">Returns contact from a given id</response>
+             <response code="404">If the item not found</response>
+             <response code="400">If any error occurs</response>
+        </member>
+        <member name="M:Web.Controllers.v1.ContactController.GetAllContacts">
+            <summary>
+            Get all contacts
+            </summary>
+            <returns></returns>
+            <response code="200">Returns all contacts data </response>
+            <response code="400">If any error occurs </response>
+        </member>
+        <member name="M:Web.Controllers.v1.ContactController.CreateContact(Application.Commands.Contacts.CreateContact.CreateContactCommand)">
+             <summary>
+             Create a Contact
+             </summary>
+             <param name="command"></param>
+             <returns></returns>
+             <remarks>
+             Sample request:
+            
+                 POST /Todo
+                 {
+                   "salution": "Mr",
+                   "firstName": "Adel",
+                   "lastName": "P. Ganji",
+                   "displayName": "",
+                   "birthdate": "1990-02-25",
+                   "email": "Adelganji@gmail.com",
+                   "phoneNumber": "+989113131524"
+                 }    
+             </remarks>
+             <response code="201">Returns created contact Id</response>
+             <response code="400">If any error occurs</response>
+        </member>
+        <member name="M:Web.Controllers.v1.ContactController.UpdateContact(Application.Commands.Contacts.UpdateContact.UpdateContactCommand)">
+             <summary>
+             Update a contact 
+             </summary>
+             <param name="command"></param>
+             <returns></returns>
+             <remarks>
+             Sample request:
+            
+                 PUT /Todo
+                 {
+                   "Id": 1,
+                   "salution": "Mr",
+                   "firstName": "Adel",
+                   "lastName": "P. Ganji",
+                   "displayName": "Adel Pourramezan Ganji",
+                   "birthdate": "1990-02-25",
+                   "email": "Adelganji@gmail.com",
+                   "phoneNumber": "+989113131524"
+                 }    
+             </remarks>
+             <response code="200">Returns if contact has updated</response>
+             <response code="404">If the item not found</response>
+             <response code="400">If any error occurs</response>
+        </member>
+        <member name="M:Web.Controllers.v1.ContactController.DeleteContact(System.Int32)">
+             <summary>
+             Delete a specific contact entry by a given Id
+             </summary>
+             <param name="Id"></param>
+             <returns>true of false</returns>
+             <remarks>
+             Sample query:
+            
+             /api/v1/contact/1
+            
+             </remarks>
+             <response code="200">Returns if contact has deleted</response>
+             <response code="404">If the item not found</response>
+             <response code="400">If any error occurs</response>
+        </member>
+    </members>
+</doc>
